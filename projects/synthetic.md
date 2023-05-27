@@ -21,6 +21,8 @@ Our goal for this project is to augmented Robomaster's datasets in order to get 
 
 Our team expand the existing datasets in order to improve the accuracy and train the datasets in different methods in order to achieve it. The method we used including scaling, rotation, position, and brightness.
 
+In order to improve dataset size and variation, we implemented a synthetic data generation pipeline using Autodesk Maya and allowed us generate any amount photorealistic synthetic images with high randomization and expandability. Synthetic data generation offers a solution by allowing the extraction of large amounts of images and metadata directly from a virtual environment, while maintaining precise ground truth annotations.
+
 Here is some code that illustrates how we read values from the line sensors:
 
 ```cpp
