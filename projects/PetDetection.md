@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/elanco/elanco.png
 title: "Computer Vision Pet Detection and Diagnostics"
 date: 2022
 labels:
