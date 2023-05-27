@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/robomaster/robo.jpg
+image: img/robomaster/roboProfile.png
 title: "Synthetic Datasets"
 date: 2022
 labels:
