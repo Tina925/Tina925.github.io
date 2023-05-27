@@ -12,9 +12,8 @@ summary: "My team generated a synthetic datasets using Autodesk Maya to get in u
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/robomaster/robo.png" class="img-thumbnail" >
+  <img width="200px" src="../img/robomaster/rob.jpg" class="img-thumbnail" >
 </div>
 
 Our goal for this project is to augmented Robomaster's datasets in order to get a larger datasets for traning, and also generate  synthetic datasets for different angle of the robots by changing camera angles in Maya application. This is a year long project
