@@ -12,7 +12,7 @@ labels:
 summary: "utilize computer vision AI systems to enable in-home pet identification and diagnostics."
 ---
 
-<img class="img-fluid" src="../img/elanco/elanco.png">
+<img class="img-fluid" src="../img/elanco/object.png">
 
 Our goal for this project is to utilize computer vision AI systems to enable in-home pet identification and diagnostics.
 
