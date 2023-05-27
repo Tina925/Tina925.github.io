@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/robomaster/robo.jpg
 title: "Synthetic Datasets"
 date: 2022
 labels:
