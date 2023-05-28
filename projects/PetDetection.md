@@ -12,7 +12,7 @@ labels:
 summary: "utilize computer vision AI systems to enable in-home pet identification and diagnostics."
 ---
 <div class="text-center p-4">
-<img class="img-fluid" src="../img/elanco/object.png">
+<img class="img-fluid" src="../img/elanco/poster.png">
 </div>
 Our goal for this project is to utilize computer vision AI systems to enable in-home pet identification and diagnostics.
 
@@ -32,6 +32,10 @@ Three Categories of the Project
 
 <b>Object Detection and Breed Identification</b>
 - We used the computer technology related to computer vision technique. For all the pictures for training the objects have bounding box around them, we used yolov5 to train models. We then optimized performance by adjusting number of epochs, batch size, and image augmentation parameters, and also compared performance for Yolov5 and Yolov8.
+
+<div class="text-center p-4">
+<img class="img-fluid" src="../img/elanco/object.png">
+</div>
 
 Synthetic Data Generation
 - In order to improve dataset size and variation, we implemented a synthetic data generation pipeline using Autodesk Maya and allowed us generate any amount photorealistic synthetic images with high randomization and expandability. 
