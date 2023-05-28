@@ -37,10 +37,10 @@ Three Categories of the Project
 <img class="img-fluid" src="../img/elanco/object.png">
 </div>
 
-Synthetic Data Generation
+<b>Synthetic Data Generation</b>
 - In order to improve dataset size and variation, we implemented a synthetic data generation pipeline using Autodesk Maya and allowed us generate any amount photorealistic synthetic images with high randomization and expandability. 
 
-Pose Estimation
+<b>Pose Estimation</b>
 - We used DeepLabCut to get keypoints detected for different animals. It can detect the joints in a picture or video.
 
 
