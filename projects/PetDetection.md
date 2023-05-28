@@ -27,14 +27,10 @@ Specific Aims:
 - Visualize data by different factors
 - Assess algorithm accuracy for breed identification and behavioral prediction
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
 
 Three Categories of the Project
 
-Object Detection and Breed Identification
+<br>Object Detection and Breed Identification</br>
 - We used the computer technology related to computer vision technique. For all the pictures for training the objects have bounding box around them, we used yolov5 to train models. We then optimized performance by adjusting number of epochs, batch size, and image augmentation parameters, and also compared performance for Yolov5 and Yolov8.
 
 Synthetic Data Generation
