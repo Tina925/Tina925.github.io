@@ -30,7 +30,7 @@ Specific Aims:
 
 Three Categories of the Project
 
-<br>Object Detection and Breed Identification</br>
+<b>Object Detection and Breed Identification</b>
 - We used the computer technology related to computer vision technique. For all the pictures for training the objects have bounding box around them, we used yolov5 to train models. We then optimized performance by adjusting number of epochs, batch size, and image augmentation parameters, and also compared performance for Yolov5 and Yolov8.
 
 Synthetic Data Generation
