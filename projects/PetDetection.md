@@ -28,6 +28,10 @@ Specific Aims:
 - Assess algorithm accuracy for breed identification and behavioral prediction
 
 
+Data Sets used to train model: COCO, Stanford Dog Dataset
+Algorithm needs to be trained with dogs of different breeds on a larger dataset
+Algorithm to be tested with synthetically modified images
+
 Three Categories of the Project
 
 <b>Object Detection and Breed Identification</b>
