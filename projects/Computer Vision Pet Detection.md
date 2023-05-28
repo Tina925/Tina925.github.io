@@ -2,9 +2,8 @@
 layout: project
 type: project
 image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
-published: true
+title: "Bridge Sensor"
+date: 2022-2023
 labels:
   - Javascript
   - Meteor
