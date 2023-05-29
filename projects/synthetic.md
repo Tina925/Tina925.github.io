@@ -12,7 +12,6 @@ summary: "My team generated a synthetic datasets using Autodesk Maya to get in u
 ---
 
 <div class="text-center p-4">
-  <img class="img-fluid" src="../img/robomaster/robo.png" class="img-thumbnail" >
   <img class="img-fluid" src="../img/robomaster/rob.png" class="img-thumbnail" >
 </div>
 
