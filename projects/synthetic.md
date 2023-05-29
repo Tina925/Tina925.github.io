@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/robomaster/roboProfile.png
 title: "Synthetic Datasets"
-date: 2022
+date: 2022-2023
 labels:
   - Robotics
   - Autodesk Maya
