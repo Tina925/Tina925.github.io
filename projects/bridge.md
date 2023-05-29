@@ -8,7 +8,7 @@ labels:
   - Python
   - Data Analysis
   - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+summary: "A data analysis project with python on determining sensor adding on bridges"
 ---
 <div class="text-center p-4">
 <img class="img-fluid" src="../img/bridge sensor/python.jpg">
