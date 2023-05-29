@@ -26,6 +26,3 @@ The final display is as following below:
 <div class="text-center p-4">
 <img class="img-fluid" src="../img/bridge sensor/pro1-3.png">
 </div>
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
- 
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
