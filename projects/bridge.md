@@ -11,8 +11,9 @@ labels:
   - GitHub
 summary: "A responsive web application for travel planning that my team developed in ICS 415."
 ---
-
+<div class="text-center p-4">
 <img class="img-fluid" src="../img/bridge sensor/python.jpg">
+</div>
 Above is the first part of the prject which my partner and I decided to put three sensors on Brooklyn, Queensboro, and Manhattan bridges. 
 We used the maximum, minimum, mean, and standard deviation with code support to get the final graph of each bridges' spreadout, and then choose three of four most unique bridges to put on sensors. 
 
@@ -23,8 +24,9 @@ In python, I mainly used the sklearn python technics to determine the coefficien
 For the last part of this project my group member construct the code analysis and I concluded the final conclusion. By giving the number of bicycles, we are trying to predict if that day is rainy or not. 
 We construct a linear regression model based on relationship between precipitation and number of bicycles, and plugged in the number of bicycles in order to see if its rainy or not, if result is 1 than its rainy, is is 0 then its not rainy. 
 The final display is as following below:
-
+<div class="text-center p-4">
 <img class="img-fluid" src="../img/bridge sensor/pro1-3.png">
+</div>
 {% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
  
 Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
