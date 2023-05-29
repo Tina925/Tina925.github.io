@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/bridge sensor/pro1.png
 title: "Bridge Sensor"
-date: 2022-2023
+date: 2022
 labels:
   - Python
   - Data Analysis
