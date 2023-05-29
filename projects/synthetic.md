@@ -12,8 +12,8 @@ summary: "My team generated a synthetic datasets using Autodesk Maya to get in u
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/robomaster/robo.png" class="img-thumbnail" >
-  <img width="200px" src="../img/robomaster/rob.jpg" class="img-thumbnail" >
+  <img class="img-fluid" src="../img/robomaster/robo.png" class="img-thumbnail" >
+  <img class="img-fluid" src="../img/robomaster/rob.jpg" class="img-thumbnail" >
 </div>
 
 Our goal for this project is to augmented Robomaster's datasets in order to get a larger datasets for traning, and also generate  synthetic datasets for different angle of the robots by changing camera angles in Maya application. This is a year long project
@@ -59,7 +59,7 @@ select -r "ap_front" "ap_front1";
 ```
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/robomaster/flowchart.png" class="img-thumbnail" >
+  <img class="img-fluid" src="../img/robomaster/flowchart.png" class="img-thumbnail" >
 </div>
 
 we have devised a 6-stage process that transforms the 3D model into a deployable computer vision model. Let me briefly walk you through each stage.
@@ -73,7 +73,7 @@ These steps are then repeated multiple times to generate any amount of data we w
 With the synthetic dataset prepared, we custom train a YOLOv5 object detection model and evaluate its performance against various real-world scenarios. This evaluation allows us to identify areas in which the model may be lacking and pinpoint specific edge cases. To address these shortcomings, we generate thousands of variations for each identified edge case, thereby strengthening the model's performance. Through iterative improvements and fine-tuning, the model becomes increasingly robust and accurate.
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/robomaster/flow.png" class="img-thumbnail" >
+  <img class="img-fluid" src="../img/robomaster/flow.png" class="img-thumbnail" >
 </div>
 
 After setting up the 3D model, we begin to randomize the parameters. This involves generating variations of the 3D model by altering certain parameters and attributes of the model, which helps create a diverse range of datasets that reflect real-world variation.
