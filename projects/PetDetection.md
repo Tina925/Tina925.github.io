@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/elanco/elanco.png
 title: "Computer Vision Pet Detection and Diagnostics"
-date: 2022
+date: 2022-2023
 labels:
   - yolov8
   - Pytorch
