@@ -22,16 +22,38 @@ Our team expand the existing datasets in order to improve the accuracy and train
 
 In order to improve dataset size and variation, we implemented a synthetic data generation pipeline using Autodesk Maya and allowed us generate any amount photorealistic synthetic images with high randomization and expandability. Synthetic data generation offers a solution by allowing the extraction of large amounts of images and metadata directly from a virtual environment, while maintaining precise ground truth annotations.
 
-Here is some code that illustrates how we read values from the line sensors:
+Here is some code that illustrates how we can detect multiple armor plate at once and also set up the camera angle:
 
 ```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+select -r "ap_front" "ap_front1";
+	
+	ConvertSelectionToVertices;
+	string $selected [] = `ls -sl`;
+
+
+	
+	int $numVert = 0;
+	int $sizeSelected = size($selected);
+	print($sizeSelected);
+  
+  
+  // -------------------- Start Loop --------------------
+	for ($numfile=0; $numfile<$datasetSize; ++$numfile) { // start numfile
+		
+		// Randomize Camera attributes
+		$mode = rand(0,100);
+		if ($mode < 20) {
+			$rotX = rand(-80,-10);
+		} else {
+			$rotX = rand(-10,0);
+		}
+		$rotY = rand(-80,80);
+		$dolly = rand(104,555);
+		print("rotX : "+$rotX+"\n"+"rotY : "+$rotY+"\n");
+		
+		
+		// Setup camera
+		viewLookAt -pos 0 20.67 20 $camera;
+		rotate -pivot 0 20.67 20 $rotX $rotY 0 $camera;
+		dolly -abs -d $dolly $camera;
 ```
