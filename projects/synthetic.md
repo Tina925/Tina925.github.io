@@ -57,3 +57,30 @@ select -r "ap_front" "ap_front1";
 		rotate -pivot 0 20.67 20 $rotX $rotY 0 $camera;
 		dolly -abs -d $dolly $camera;
 ```
+
+<div class="text-center p-4">
+  <img width="200px" src="../img/robomaster/flowchart.png" class="img-thumbnail" >
+</div>
+
+we have devised a 6-stage process that transforms the 3D model into a deployable computer vision model. Let me briefly walk you through each stage.
+
+The first stage involves importing the 3D models of our robots and environment into Autodesk Maya. 
+In the second stage, we use an extensive randomization framework to simulate different scenarios the robot might encounter.
+In stage three, we render the images and extract metadata from the virtual environment.
+
+These steps are then repeated multiple times to generate any amount of data we want, providing a virtually limitless supply of diverse training samples. 
+
+With the synthetic dataset prepared, we custom train a YOLOv5 object detection model and evaluate its performance against various real-world scenarios. This evaluation allows us to identify areas in which the model may be lacking and pinpoint specific edge cases. To address these shortcomings, we generate thousands of variations for each identified edge case, thereby strengthening the model's performance. Through iterative improvements and fine-tuning, the model becomes increasingly robust and accurate.
+
+<div class="text-center p-4">
+  <img width="200px" src="../img/robomaster/flow.png" class="img-thumbnail" >
+</div>
+
+After setting up the 3D model, we begin to randomize the parameters. This involves generating variations of the 3D model by altering certain parameters and attributes of the model, which helps create a diverse range of datasets that reflect real-world variation.
+
+We focus on randomizing four parameters in particular: lighting, camera, 3D meshes, and post-processing.
+
+For lighting, we adjust the intensity, color, location, and rotation offset. The competition lighting is very different from what we would normally be in, so doing this covers almost all of the conditions that the robot may encounter. For the camera, we adjust the field of view, focal length, as well as location and rotation offset. For this new season, our team is switching our camera, so these parameters helps the model to adapt to this change.
+
+For 3D meshes, we adjust the background, armor plate, and robot variations. By changing these parameters, the model can adapts to different enemy robot types. Lastly, we use the OpenCV library for post-processing to adjust the exposure, bloom effect, white balance, and color balance after the datasets have been generated, further improving the variation of the dataset.
+
