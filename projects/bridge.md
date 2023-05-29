@@ -7,7 +7,6 @@ date: 2022-2023
 labels:
   - Python
   - Data Analysis
-  - MongoDB
   - GitHub
 summary: "A responsive web application for travel planning that my team developed in ICS 415."
 ---
